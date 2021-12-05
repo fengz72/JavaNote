@@ -20,7 +20,7 @@ public class Md5UtilSimple {
         } catch (NoSuchAlgorithmException e) {
             e.printStackTrace();
         }
-        return sb.toString();
+        return sb.toString().toUpperCase();
     }
 
     public static void main(String[] args) {
