@@ -39,5 +39,13 @@ public class Welcome1 {
             System.out.print(e);
         }
 
+        String s3 = String.format("%7.2f",45.556);
+        System.out.println(s3);//四舍五入了
+
+        //StringBuilder
+        StringBuilder sb = new StringBuilder();
+        sb.append("Welcome to Java");
+        System.out.println(sb.reverse().delete(8,11).replace(11,15,"HTML"));//avaJ ot cleHTML,如果替代的字段不足，会只替换已有的字段
+
     }
 }
